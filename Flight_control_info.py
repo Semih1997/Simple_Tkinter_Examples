@@ -4,10 +4,6 @@ from tkinter import messagebox
 first = (range(1,21))
 bussinnes = (range(21,51))
 economy = (range(51,101))
-
-Flight_control_info = Tk()
-
-Flight_control_info.configure(bg='purple')
 def limit_texts():
     ticket_number = ticket_number_entry.get()
     ticket_number = int(ticket_number)
@@ -19,6 +15,9 @@ def limit_texts():
         messagebox.showinfo("Limits","Handbag Limit = 5 KG Liquid Limit = 1 L")
     else:
         messagebox.showerror("Error!", "Please write valid ticket number!")
+        
+Flight_control_info = Tk()
+Flight_control_info.configure(bg='purple')
 
 #This is for place our screen in the middle.
 ws = Flight_control_info.winfo_screenwidth() # width of the screen
