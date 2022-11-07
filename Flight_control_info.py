@@ -40,4 +40,5 @@ enter_button = Button(Flight_control_info, text="Enter",command= lambda :limit_t
 enter_button.place(rely=0.4, relx=0.35, height=30, width=100)
 enter_button.configure(bg="blue")
 
+Flight_control_info.resizable(False,False)
 Flight_control_info.mainloop()
