@@ -26,8 +26,8 @@ height_entry = Entry(body_index_screen,width=20)
 height_entry.place(x=150,y=40)
 
 calculate_button = Button(body_index_screen,text="CALCULATE",command=lambda :body_index_calculate()).place(x=100,y=85)
-calculated_label = Label(body_index_screen,text="").place(x=150,y=125)
-calculated_text = Label(body_index_screen,text="").place(x=30,y=125)
+# calculated_label = Label(body_index_screen,text="").place(x=150,y=125)
+# calculated_text = Label(body_index_screen,text="").place(x=30,y=125)
 
 body_index_screen.resizable(False,False)
 body_index_screen.mainloop()
